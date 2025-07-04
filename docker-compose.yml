@@ -11,7 +11,7 @@ services:
     #build:
       #context: ./front-end
     #image: frontend-image
-    image: tgwrk/projecttwo-frontend-image:latest
+    image: tgwrk/projecttwo-frontend:latest
     container_name: projecttwo-frontend
     ports:
       - "3000:3000"
