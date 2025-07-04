@@ -8,9 +8,10 @@ services:
       - "9000:9000"
 
   frontend:
-    build:
-      context: ./front-end
-    image: frontend-image
+    #build:
+      #context: ./front-end
+    #image: frontend-image
+    image: tgwrk/projecttwo-frontend-image:latest
     container_name: projecttwo-frontend
     ports:
       - "3000:3000"
