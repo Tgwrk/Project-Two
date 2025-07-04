@@ -27,8 +27,8 @@ jobs:
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
         with:
-          context: ./frontend
-          file: ./frontend/Dockerfile
+          context: ./front-end
+          file: ./front-end/Dockerfile
           push: true
           tags: tgwrk/projecttwo-frontend:latest
 
