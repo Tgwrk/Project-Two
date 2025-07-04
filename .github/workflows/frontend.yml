@@ -30,7 +30,7 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
-          tags: tgwrk/projecttwo-frontend-image:latest
+          tags: tgwrk/projecttwo-frontend:latest
 
       - name: Notify on failure
         if: failure()
